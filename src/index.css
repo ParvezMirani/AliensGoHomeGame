@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Joti+One');
+
+/* other rules ... */
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
