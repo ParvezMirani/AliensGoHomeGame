@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Initail Setup:
 1) Replace: In App.js file
+
 Auth0.configure({
   domain: 'YOUR_AUTH0_DOMAIN',
   clientID: 'YOUR_AUTH0_CLIENT_ID',
@@ -13,6 +14,7 @@ Auth0.configure({
 });
 
 2) Replace with your auth0 Domain
+
 const client = jwksClient({
   jwksUri: 'https://YOUR_AUTH0_DOMAIN/.well-known/jwks.json'
 });
